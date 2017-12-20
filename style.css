@@ -44,3 +44,6 @@ form select {
     width: 173px;;
     display:inline-block;
 }
+form button {
+    margin-left: 10px;
+}
