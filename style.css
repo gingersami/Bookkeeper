@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto
+}
+
+nav {
+    background-color: rgba(156, 156, 156, 0.8);
+    width: 100%;
+
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+
+    
+}
+
+nav li a {
+    line-height: 50px;
+    padding: 0 25px;
+    text-decoration: none;
+    color:blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form span {
+    padding-left: 10px;
+    width: 8%;
+    display: inline-block;
+
+}
+
+form input {
+    display: inline-block;
+    width: 15%;
+}
+
+form select {
+    width: 173px;;
+    display:inline-block;
+}

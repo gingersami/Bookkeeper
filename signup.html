@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
 </head>
+
 <body>
     <form action="signup.html" method="post">
-        username : <input type="text" name="userName" id="" required placeholder="John">
-        <br>
-        email address <input type="email" name="" id="" required placeholder = "john@john.com">
-        <br>
-        password: <input type="password" name="" id="" required>
-        <br>
-        repeast password: <input type="password" name="" id="" required>
-        <br>
-        Phone Number: <input type="number" name="" id="" required>
-        <br>
-        Country: <select name="country" id="country">
+        <span>Username</span>
+        <input type="text" name="userName" id="" required placeholder="John">
+        <br> <span>Email Address</span>
+        <input type="email" name="" id="" required placeholder="john@john.com">
+        <br> <span>Password</span>
+        <input type="password" name="" id="" required>
+        <br> <span>Repeat Password</span>
+        <input type="password" name="" id="" required>
+        <br> <span>Phone Number</span>
+        <input type="number" name="" id="" required>
+        <br> <span>Country</span>
+        <select name="country" id="country">
             <option value="0" label="Select a country … " selected="selected">Select a country … </option>
             <optgroup id="country-optgroup-Africa" label="Africa">
                 <option value="DZ" label="Algeria">Algeria</option>
@@ -288,6 +293,7 @@
         <button type="submit">Submit</button>
 
     </form>
-    
+
 </body>
+
 </html>
