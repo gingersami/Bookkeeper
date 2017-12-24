@@ -13,15 +13,18 @@
 <body>
     <form action="signup.html" method="post">
         <span>Username</span>
-        <input type="text" name="userName" id="" required placeholder="John">
+        <input type="text" name="userName" id="user-name" required placeholder="5 Characters or more">
+        <!-- <div class ="errors" id="msg"></div> -->
         <br> <span>Email Address</span>
         <input type="email" name="" id="" required placeholder="john@john.com">
         <br> <span>Password</span>
-        <input type="password" name="" id="" required>
+        <input type="password" name="" id="user-pass" required>
         <br> <span>Repeat Password</span>
-        <input type="password" name="" id="" required>
+        <!-- <div id = "pass-div" class ="errors"></div> -->
+        <input type="password" name="" id="repeat-pass" required>
         <br> <span>Phone Number</span>
-        <input type="number" name="" id="" required>
+        <input type="number" name="" id="phone-number" required>
+        <!-- <div id="phone-msg" class= "errors"></div> -->
         <br> <span>Country</span>
         <select name="country" id="country">
             <option value="0" label="Select a country … " selected="selected">Select a country … </option>
@@ -289,11 +292,18 @@
                 <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
             </optgroup>
         </select>
+        <!-- <div id ="country-msg"></div> -->
         <br>
-        <button type="submit">Submit</button>
+        <input id = "button" type ="button" onclick="submitForm()">Submit</input>
+        <div id = "errors">
+            <ul id ="error-list">
+
+            </ul>
+        </div>
+        <div id="greet"></div>
 
     </form>
-
+<script src="script.js"></script>
 </body>
 
 </html>

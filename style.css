@@ -63,3 +63,7 @@ form button {
     display: inline;
     margin-right: 0;
 }
+
+#error-list li {
+    color: red
+}
